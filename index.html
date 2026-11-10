@@ -6,16 +6,50 @@
     <title>Wake 'N' Bacon</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-    <header class="bg-warning text-center py-5">
+<body class="bg-dark">
+    <header class="bg-danger text-center py-5">
         <h1 class="display-4 fw-bold">Wake 'N' Bacon</h1>
         <p class="lead">It's always time for breakfast if you're constantly half-asleep!</p>
-        <a href="#menu" class="btn btn-dark btn-lg text-white">See the Menu</a>
+        <a href="#menu" class="btn btn-warning btn-lg text-dark">See the Menu</a>
     </header>
 
 <main class="container py-5">
     <section id="menu">
-        <h2
+        <h2 class="mb-4 text-white">Menu</h2>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body bg-warning">
+                        <h3 class="card-title h5">Bacon</h3>
+                        <p class="card-text">Bacon is good. It is worth $6.35--or more! Buy our bacon. It's why you came here.</p>
+                        <p class="fw-bold text-success mb-0">$6.35</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body bg-warning">
+                        <h3 class="card-title h5">Scrambled Eggs</h3>
+                        <p class="card-text">Super health. Very wow. If it's good enough for a chicken fetus, it's good enough for me.</p>
+                        <p class="fw-bold text-success mb-0">$4.00</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body bg-warning">
+                        <h3 class="card-title h5">"French" Toast</h3>
+                        <p class="card-text">The accent sounds a little off. Maybe it's Belgian? Either way, it's good, and it's cheap.</p>
+                        <p class="fw-bold text-success mb-0">$3.50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 
