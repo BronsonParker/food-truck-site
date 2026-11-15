@@ -1,0 +1,17 @@
+/* Setting up header classes */
+.hero-title {
+    font-size: 2.5rem;
+}
+.lead {
+    font-size: 1.125rem;
+}
+
+/* Media Query so we know when to attach the new styles */
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 4.5rem;
+    }
+    .lead {
+        font-size: 1.5rem;
+    }
+}
